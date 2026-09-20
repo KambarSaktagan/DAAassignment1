@@ -53,8 +53,9 @@ The implemented algorithms include:
 | Closest Pair | Random 2D | 100,000 | [Insert Data from CSV] | [Insert Data from CSV] |
 
 **Plots**
-*   ![Time vs. n](plots/time_vs_n.png)
-*   ![Recursion Depth vs. n](plots/depth_vs_n.png)
+*   <img width="1919" height="1079" alt="time_vs_n" src="https://github.com/user-attachments/assets/0edacc5e-a00e-4b85-aa10-cb76ff1cb3e8" />
+*   <img width="1919" height="1079" alt="depth_vs_n" src="https://github.com/user-attachments/assets/bf12a068-2f7d-4394-8ad4-2b46971570fb" />
+
 
 ## D. Discussion
 
@@ -71,5 +72,6 @@ Navigating the transition into algorithm implementation highlighted distinct dif
 A primary implementation challenge was ensuring QuickSort strictly adhered to an O(log n) recursion depth. Converting the standard double-recursive structure into a tail-recursive loop that dynamically checks partition sizes required a shift in how I conceptualized stack frames. Additionally, bridging the gap between theoretical math—like manually calculating recurrences with the Master Theorem—and observing actual JVM execution times made the abstract concepts highly tangible.
 
 ## F. Screenshots
-*   ![Program Output](screenshots/program_output.png)
-*   ![Test Results](screenshots/test_results.png)
+*   <img width="1919" height="1079" alt="program_output" src="https://github.com/user-attachments/assets/0fe2c99d-1af9-45e5-b8da-02ea8c47f6ea" />
+*   <img width="1919" height="1079" alt="test_results" src="https://github.com/user-attachments/assets/fbd0bb53-7338-44d1-a240-55a7531a2582" />
+
